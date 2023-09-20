@@ -27,7 +27,7 @@ variable "credentials_file" {
 variable "region" {
   type        = string
   description = "region11"
-  default     = "us-west4"
+  default     = "us-west4" 
 }
 locals {
   project       = "august-button-389109"
