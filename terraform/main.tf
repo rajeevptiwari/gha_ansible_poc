@@ -22,7 +22,7 @@ terraform {
 variable "credentials_file" {
   type        = string
   description = "credentials"
-  #default     = "august-button-389109-02c678988934.json"
+  default     = "august-button-389109-02c678988934.json"
 }
 variable "region" {
   type        = string
